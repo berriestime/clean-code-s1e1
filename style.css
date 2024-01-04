@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.hero-element {
+.hero {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.hero-element img {
+.hero img {
   width: 100%;
 }
-.hero-element .learn-more {
+.hero .learn-more {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.hero-element { text-align: center;
+.hero { text-align: center;
 }
 }
-.main-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-row {
   display: flex;
 }
 ul {
